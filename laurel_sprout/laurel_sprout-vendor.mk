@@ -261,6 +261,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/firmware/sign_xiaomi/a610_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/sign_xiaomi/a610_zap.elf \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/firmware/sign_xiaomi/a610_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/sign_xiaomi/a610_zap.mdt \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-external.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/android.hardware.sensors@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.sensors@2.0-impl.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/hw/camera.trinket.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.trinket.so \
@@ -2720,6 +2721,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/vendor.qti.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@3.2.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-external.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-legacy.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/android.hardware.sensors@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.sensors@2.0-impl.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
